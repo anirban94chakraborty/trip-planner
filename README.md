@@ -64,8 +64,8 @@ This project demonstrates how to cleanly separate LLM reasoning from tool execut
    GOOGLE_CLOUD_LOCATION=us-central1
    PROJECT_ID=your_project_id_here
    PROJECT_NUMBER=your_project_number_here
-   SA_NAME=project-service
-   SERVICE_ACCOUNT=project-service@your_project_id_here.iam.gserviceaccount.com
+   SA_NAME=your_project_service_name
+   SERVICE_ACCOUNT=your_project_service_name@your_project_id.iam.gserviceaccount.com
    MODEL="gemini-2.5-flash"
    OPENWEATHER_API_KEY=your_openweather_api_key_here
    ```
